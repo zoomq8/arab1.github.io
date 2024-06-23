@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	// Other dependencies above
+	compile group: 'khttp', name: 'khttp', version: '1.0.0'
+}
